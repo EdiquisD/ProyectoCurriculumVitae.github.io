@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario-Ediquis</title>
+	<link rel="stylesheet" href="css\cvestilo.css">
+</head>
+<body>
+	<div class="contenedor_principal">
+	  <div id="cabecera">
+
+	  <h1 title="titulo">Formulario de registro de Datos</h1>
+	  </div>
+	  <a id="link" href="index.html">&larr; Regresar a Inicio</a><br><br><br>
+          
+
+        <div id="formulario">
+          	
+		  <form action="mensaje.html" method="get">
+		  <div id="section">
+		  	<input type="search" name="buscar" id="buscar" value="" placeholder="buscar"><br><br>
+		  	<input type="text" name="codigo" id="codigo" value="" placeholder="codigo"><br><br>
+		  	<input type="text" name="nombre" id="nombre" value="" placeholder="nombre completo"><br><br>
+		  	<input type="text" name="apellido" id="apellido" value="" placeholder="apellido paterno, materno"><br><br>	
+		  	<input type="text" name="direccion" id="direccion" value="" placeholder="direccion"><br><br>
+		  	<input type="email" name="correo" id="correo" value="" placeholder='correo-electronico'><br>
+	  	</div>
+	  	<div id="section">
+	  	
+	  		<label for="">Genero:</label><br>
+	 		<input type="radio" name="genero" value="M"> masculino
+	 		<input type="radio" name="genero" value="F"> femenino
+	        <br><br>
+	        <label for="">Edad:</label>
+	        <input type="number" name="edad"  value="18"> <br><br>
+	        <label for="">Color favorito:</label>
+	        <input type="color" name="color"><br><br>
+	        <label for="">Fecha:</label>
+	        <input type="date" name="fecha" value=""><br><br>
+	        <label for=""> Hora:</label>
+	        <input type="time" name="hora" value=""><br><br>
+
+	        <input type="submit" value="Enviar-datos" >
+	        
+	  	</div>
+	  	</form>
+        </div>
+	</div>
+	
+</body>
+</html>

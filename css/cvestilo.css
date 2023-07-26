@@ -1,0 +1,280 @@
+
+#fondo_index{
+  background: #504F50;
+}
+
+/*contenedor principal de la pagina*/
+.principal{
+	background-color: white;
+	height: auto;
+	width: 800px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 85%;
+
+
+}
+/*==============================
+estilos para el encabezado de la pagina
+======================================*/
+.forma1{
+
+	
+	width: 300px;
+	border-top: solid  #5c021e 230px;
+	border-right: solid transparent 60px;
+	float: left;
+	position: absolute;
+	z-index: 2;
+}
+
+.forma2{
+
+	width: 270px;
+	border-top: solid #aa0441 250px;
+	border-right: solid transparent 60px;
+	float: left;
+	z-index: 1;
+	position: relative;
+
+}
+.forma3{
+    margin-top: 30px;
+	width: 420px;
+	border-bottom: solid #ee4b7b 230px;
+	border-left: solid transparent 60px;
+	right: 0px;
+	position: absolute;
+	z-index: 2;
+
+}
+.forma4{
+    margin-top: 15px;
+	width: 390px;
+	border-bottom: solid #aa0441 230px;
+	border-left: solid transparent 60px;
+	right: 0px;
+	position: absolute;
+	z-index: 1;
+
+}
+header{
+
+	display: inline-block;
+	height: 270px;
+	width: 800px;
+}
+
+.foto-cont img{
+
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	
+}
+.foto-cont {
+    height:150px;
+    width: 150px;
+	position: relative;
+	border-radius: 50%;
+	border: 7px solid white ;
+	position: absolute;
+	z-index: 3;
+
+	margin-top: 40px;
+	margin-left: 70px;
+}
+.nombre{
+ 	position: absolute;
+	z-index: 5;
+	color: white;
+	margin-left: 400px;
+	margin-top: 40px;
+
+}
+.nombre h1{
+    font-size: 50px;
+    float: left;
+   
+}
+.nombre h3{
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-family: sans-serif;
+}
+
+.nombre div{
+	width: 170px;
+    height: 4px;
+    background: #5c021e;
+}
+/* ==================================
+estilos para el cuerpo de la pagina
+==================================== */
+
+main{
+
+	height: 800px;
+	width: 800px;
+}
+
+.section-izquierdo{
+	height: 800px;
+	width: 300px;
+	float: left;
+	position: relative;
+	background: #aa0441;
+	color: white;
+	
+}
+.section-derecho{
+	height: 800px;
+	width: 500px;
+	float: left;
+	position: relative;
+	
+}
+.section-derecho h2{
+	color:  #5c021e;
+}
+
+
+h2{
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+p{
+	margin-left: 30px;
+	margin-right: 20px;
+	line-height: 25px;
+}
+ul{
+	margin-left: 30px;
+	margin-right: 20px;	
+	line-height: 25px;
+}
+
+
+
+.section-izquierdo div{
+	margin-left: 30px;
+	margin-right: 20px;
+    height: 4px;
+    background: #5c021e;
+}
+.section-derecho div{
+	margin-left: 30px;
+	margin-right: 20px;
+    height: 4px;
+    background: #5c021e;
+}
+/* =========================
+estilos para el pie de pagina
+============================== */
+
+footer{
+
+	height: 60px;
+	width: 800px;
+	float: left;
+	border-top: solid #5c021e 5px;
+}
+.autor{
+    margin-top: 10px;
+    margin-left: 20px;
+	float: left;
+
+}
+.pie-pagina a{
+	margin-top: 10px;
+    right: 40px;
+    position: absolute;
+	background-color: #aa0441;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+/*==============================
+ estilos para el formulario
+=================================*/
+
+.contenedor_principal{
+
+	background-color: white;
+	height: auto;
+	width: 800px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	border-radius: 10px;
+    border: solid blue 4px;
+   
+
+}
+#cabecera{
+	width: 800px;
+	height: 70px;
+	background-color: blue;
+	position: relative;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+h1[title="titulo"]{
+	text-align: center;
+	color: white;
+    float: left;
+    margin-left: 180px;
+
+}
+#link{
+	margin-top: 10px;
+    left: 20px;
+    position: absolute;
+	background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#formulario{
+
+	border: solid gray 4px;
+   	margin-left: 20px;
+   	margin-top: 20px;
+   	margin-bottom: 20px;
+   	border-radius: 4px;
+   	float: left;
+}
+#section{
+
+	width: 330px;
+	height: 300px;
+	float: left;
+	padding: 20px;
+}
+input[type="submit"]{
+	margin-top: 10px;
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
